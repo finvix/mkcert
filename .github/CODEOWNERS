@@ -1,0 +1,17 @@
+# CODEOWNERS — Estándar de gobernanza Finvix  ·  org-baseline (R11)
+# ─────────────────────────────────────────────────────────────────────────
+# Política: toda Pull Request a `develop` y `master` requiere la aprobación de
+# un miembro de @finvix/leads (Jacobo · Pedro · Cristián).
+#
+# ESTÁNDAR ÚNICO: idéntico en todos los repos gobernados, sin importar lenguaje
+# ni alcance. No se edita por repo — se gestiona como código en finvix-ops
+# (codeowners/CODEOWNERS) y lo aplica Terraform (files.tf).
+# Docs: https://docs.github.com/articles/about-code-owners
+#
+# DEUDA CONOCIDA (futuro — baby steps): en rutas sensibles (CI/CD, infra,
+# secretos, auth) se añadirá @finvix/security (y/o un equipo de gobernanza) como
+# aprobador adicional para defensa en profundidad. Por ahora: solo Leads.
+# ─────────────────────────────────────────────────────────────────────────
+
+# Todo el repositorio → revisión obligatoria de Leads
+*                                       @finvix/leads
